@@ -93,33 +93,36 @@ sigma = 0.1
 
 #### 4. Solution approach
 
-My final model results were: 0.951 
-Test set accuracy is 0.940
+My final model results were: 0.950
+Test set accuracy is 0.934
 
-If an iterative approach was chosen:
-* What was the first architecture that was tried and why was it chosen?
-* What were some problems with the initial architecture?
-* How was the architecture adjusted and why was it adjusted? Typical adjustments could include choosing a different model architecture, adding or taking away layers (pooling, dropout, convolution, etc), using an activation function or changing the activation function. One common justification for adjusting an architecture would be due to overfitting or underfitting. A high accuracy on the training set but low accuracy on the validation set indicates over fitting; a low accuracy on both sets indicates under fitting.
-* Which parameters were tuned? How were they adjusted and why?
-* What are some of the important design choices and why were they chosen? For example, why might a convolution layer work well with this problem? How might a dropout layer help with creating a successful model?
+What I did was try and error testing. Following the testing log.
 
-If a well known architecture was chosen:
-* What architecture was chosen?
-* Why did you believe it would be relevant to the traffic sign application?
-* How does the final model's accuracy on the training, validation and test set provide evidence that the model is working well?
+##### Test log and accuracy
+1.  init test : _0.893_
+2.  change Epoch to 6 : _0.88_
+3.  no preprosessing : _0.85_
+4.  add one dropout with 10 Epoch: _0.921_
+5.  2 dropout : _0.905_
+6.  one dropout with rate 0.5: _0.917_
+7.  dropout rate 0.6: _0.885_
+8.  dropout rate 0.8: _0.924_
+9.  Epoch 15: _0.91_
+10. learning rate 0.0005: _0.908_
+11. Epoch 20 : _0.925_
+12. conv 3 layer : _0.952_
+13. Epoch 15: _0.950_
+
+
  
 
 ### Test a Model on New Images
 
 #### 1. Five German traffic signs found on the web.
 
-Here are five German traffic signs that I found on the web:
+Here are an example of German traffic signs that I found on the web:
 
 ![alt text](https://github.com/inokatsu/CarND-Traffic-Sign-Recognition/blob/master/downloaded_images/Stop.jpg) 
-![alt text](https://github.com/inokatsu/CarND-Traffic-Sign-Recognition/blob/master/downloaded_images/Keep_left.jpg) 
-![alt text](https://github.com/inokatsu/CarND-Traffic-Sign-Recognition/blob/master/downloaded_images/Road_work.jpg) 
-![alt text](https://github.com/inokatsu/CarND-Traffic-Sign-Recognition/blob/master/downloaded_images/Pedestrians.jpg) 
-![alt text](https://github.com/inokatsu/CarND-Traffic-Sign-Recognition/blob/master/downloaded_images/Turn_left_ahead.jpg)
 
 
 #### 2. Model's predictions on these new traffic signs
