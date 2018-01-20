@@ -50,7 +50,7 @@ signs data set:
 
 Here is an exploratory visualization of the data set. It is a bar chart showing how the training data is distributed.
 
-![alt text][image1]https://github.com/inokatsu/CarND-Traffic-Sign-Recognition/blob/master/figure/distribution_validation.png
+![alt text](https://github.com/inokatsu/CarND-Traffic-Sign-Recognition/blob/master/figure/distribution_validation.png)
 
 ### Design and Test a Model Architecture
 
@@ -120,8 +120,8 @@ If a well known architecture was chosen:
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][https://github.com/inokatsu/CarND-Traffic-Sign-Recognition/blob/master/downloaded_images/Speed%20limit%20(70km:h).jpg] ![alt text][https://github.com/inokatsu/CarND-Traffic-Sign-Recognition/blob/master/downloaded_images/Stop.jpg] ![alt text][https://github.com/inokatsu/CarND-Traffic-Sign-Recognition/blob/master/downloaded_images/Keep%20left.jpg] 
-![alt text][https://github.com/inokatsu/CarND-Traffic-Sign-Recognition/blob/master/downloaded_images/Turn%20left%20ahead.jpg] ![alt text][https://github.com/inokatsu/CarND-Traffic-Sign-Recognition/blob/master/downloaded_images/Speed%20limit%20(100km:h).jpg]
+![alt text](https://github.com/inokatsu/CarND-Traffic-Sign-Recognition/blob/master/downloaded_images/Speed%20limit%20(70km:h).jpg) ![alt text](https://github.com/inokatsu/CarND-Traffic-Sign-Recognition/blob/master/downloaded_images/Stop.jpg) ![alt text](https://github.com/inokatsu/CarND-Traffic-Sign-Recognition/blob/master/downloaded_images/Keep%20left.jpg) 
+![alt text](https://github.com/inokatsu/CarND-Traffic-Sign-Recognition/blob/master/downloaded_images/Turn%20left%20ahead.jpg) ![alt text](https://github.com/inokatsu/CarND-Traffic-Sign-Recognition/blob/master/downloaded_images/Speed%20limit%20(100km:h).jpg)
 
 
 #### 2. Model's predictions on these new traffic signs
