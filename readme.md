@@ -1,10 +1,5 @@
 # **Traffic Sign Recognition** 
 
-## Writeup
-
-### You can use this file as a template for your writeup if you want to submit it as a markdown file, but feel free to use some other method and submit a pdf if you prefer.
-
----
 
 **Build a Traffic Sign Recognition Project**
 
@@ -87,14 +82,14 @@ My final model consisted of the following layers:
 #### 3. Train, Validate and Test the Model
 
 ##### Parameters
-The model was traind with Adam Optimizer.
-Batch size = 128.
-Number of epochs = 15
-Learning rate = 0.001
+The model was traind with Adam Optimizer.  
+Batch size = 128  
+Number of epochs = 15  
+Learning rate = 0.001  
 
 ##### Hyperparameters
-mu = 0
-sigma = 0.1
+mu = 0  
+sigma = 0.1  
 
 #### 4. Solution approach
 
@@ -120,11 +115,11 @@ If a well known architecture was chosen:
 
 Here are five German traffic signs that I found on the web:
 
-![alt text](https://github.com/inokatsu/CarND-Traffic-Sign-Recognition/blob/master/downloaded_images/Speed%20limit%20(70km:h).jpg) 
 ![alt text](https://github.com/inokatsu/CarND-Traffic-Sign-Recognition/blob/master/downloaded_images/Stop.jpg) 
-![alt text](https://github.com/inokatsu/CarND-Traffic-Sign-Recognition/blob/master/downloaded_images/Keep%20left.jpg) 
-![alt text](https://github.com/inokatsu/CarND-Traffic-Sign-Recognition/blob/master/downloaded_images/Turn%20left%20ahead.jpg) 
-![alt text](https://github.com/inokatsu/CarND-Traffic-Sign-Recognition/blob/master/downloaded_images/Speed%20limit%20(100km:h).jpg)
+![alt text](https://github.com/inokatsu/CarND-Traffic-Sign-Recognition/blob/master/downloaded_images/Keep_left.jpg) 
+![alt text](https://github.com/inokatsu/CarND-Traffic-Sign-Recognition/blob/master/downloaded_images/Road_work.jpg) 
+![alt text](https://github.com/inokatsu/CarND-Traffic-Sign-Recognition/blob/master/downloaded_images/Pedestrians.jpg) 
+![alt text](https://github.com/inokatsu/CarND-Traffic-Sign-Recognition/blob/master/downloaded_images/Turn_left_ahead.jpg)
 
 
 #### 2. Model's predictions on these new traffic signs
@@ -133,11 +128,11 @@ Here are the results of the prediction:
 
 | Image			        |     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| Speed limit(70km/h)	| Speed limit(70km/h)							| 
-| Stop       			| Stop  										|
-| Keep left 			| Keep left										|
-| Turn left ahead  		| Turn left ahead				 				|
-| Speed limit(100km/h)	| Speed limit(100km/h)  						|
+| Stop              	| Stop                      					| 
+| Keep left    			| Keep left										|
+| Road work 			| Road work										|
+| Pedestrians   		| Pedestrians			    	 				|
+| Turn left ahead    	| Turn left ahead       						|
 
 
 The model was able to correctly guess 5 of the 5 traffic signs, which gives an accuracy of 100%. 
