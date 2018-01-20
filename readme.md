@@ -99,19 +99,19 @@ Test set accuracy is 0.934
 What I did was try and error testing. Following the testing log.
 
 ##### Test log and accuracy
-1.  init test : _0.893_
-2.  change Epoch to 6 : _0.88_
-3.  no preprosessing : _0.85_
-4.  add one dropout with 10 Epoch: _0.921_
-5.  2 dropout : _0.905_
-6.  one dropout with rate 0.5: _0.917_
-7.  dropout rate 0.6: _0.885_
-8.  dropout rate 0.8: _0.924_
-9.  Epoch 15: _0.91_
-10. learning rate 0.0005: _0.908_
-11. Epoch 20 : _0.925_
-12. conv 3 layer : _0.952_
-13. Epoch 15: _0.950_
+1.  init test : __0.893__
+2.  change Epoch to 6 : __0.88__
+3.  no preprosessing : __0.85__
+4.  add one dropout with 10 Epoch: __0.921__
+5.  2 dropout : __0.905__
+6.  one dropout with rate 0.5: __0.917__
+7.  dropout rate 0.6: __0.885__
+8.  dropout rate 0.8: __0.924__
+9.  Epoch 15: __0.91__
+10. learning rate 0.0005: __0.908__
+11. Epoch 20 : __0.925__
+12. conv 3 layer : __0.952__
+13. Epoch 15: __0.950__
 
 
  
