@@ -120,8 +120,11 @@ If a well known architecture was chosen:
 
 Here are five German traffic signs that I found on the web:
 
-![alt text](https://github.com/inokatsu/CarND-Traffic-Sign-Recognition/blob/master/downloaded_images/Speed%20limit%20(70km:h).jpg) ![alt text](https://github.com/inokatsu/CarND-Traffic-Sign-Recognition/blob/master/downloaded_images/Stop.jpg) ![alt text](https://github.com/inokatsu/CarND-Traffic-Sign-Recognition/blob/master/downloaded_images/Keep%20left.jpg) 
-![alt text](https://github.com/inokatsu/CarND-Traffic-Sign-Recognition/blob/master/downloaded_images/Turn%20left%20ahead.jpg) ![alt text](https://github.com/inokatsu/CarND-Traffic-Sign-Recognition/blob/master/downloaded_images/Speed%20limit%20(100km:h).jpg)
+![alt text](https://github.com/inokatsu/CarND-Traffic-Sign-Recognition/blob/master/downloaded_images/Speed%20limit%20(70km:h).jpg) 
+![alt text](https://github.com/inokatsu/CarND-Traffic-Sign-Recognition/blob/master/downloaded_images/Stop.jpg) 
+![alt text](https://github.com/inokatsu/CarND-Traffic-Sign-Recognition/blob/master/downloaded_images/Keep%20left.jpg) 
+![alt text](https://github.com/inokatsu/CarND-Traffic-Sign-Recognition/blob/master/downloaded_images/Turn%20left%20ahead.jpg) 
+![alt text](https://github.com/inokatsu/CarND-Traffic-Sign-Recognition/blob/master/downloaded_images/Speed%20limit%20(100km:h).jpg)
 
 
 #### 2. Model's predictions on these new traffic signs
@@ -143,6 +146,6 @@ The model was able to correctly guess 5 of the 5 traffic signs, which gives an a
 
 The code for making predictions on my final model is located in the the Ipython notebook.
 
-![alt text][]
+![alt text](https://github.com/inokatsu/CarND-Traffic-Sign-Recognition/blob/master/figure/softmax_probability.png)
 
 
