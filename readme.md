@@ -14,14 +14,10 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/visualization.jpg "Visualization"
-[image2]: ./examples/grayscale.jpg "Grayscaling"
-[image3]: ./examples/random_noise.jpg "Random Noise"
-[image4]: ./examples/placeholder.png "Traffic Sign 1"
-[image5]: ./examples/placeholder.png "Traffic Sign 2"
-[image6]: ./examples/placeholder.png "Traffic Sign 3"
-[image7]: ./examples/placeholder.png "Traffic Sign 4"
-[image8]: ./examples/placeholder.png "Traffic Sign 5"
+[image1]: ./figure/distribution_validation.png "Visualization"
+[image2]: ./downloaded_images/Stop.jpg "Stop sign"
+[image3]: ./figure/softmax_probability.png "softmax_probability"
+
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -29,6 +25,7 @@ The goals / steps of this project are the following:
 ---
 
 Here is a link to my [project code](https://github.com/inokatsu/CarND-Traffic-Sign-Recognition/blob/master/Traffic_Sign_Classifier.ipynb)
+
 
 ### Data Set Summary & Exploration
 
@@ -45,7 +42,8 @@ signs data set:
 
 Here is an exploratory visualization of the data set. It is a bar chart showing how the training data is distributed.
 
-![alt text](https://github.com/inokatsu/CarND-Traffic-Sign-Recognition/blob/master/figure/distribution_validation.png)
+
+![Visualization][image1]
 
 ### Design and Test a Model Architecture
 
@@ -122,8 +120,7 @@ What I did was try and error testing. Following the testing log.
 
 Here are an example of German traffic signs that I found on the web:
 
-![alt text](https://github.com/inokatsu/CarND-Traffic-Sign-Recognition/blob/master/downloaded_images/Stop.jpg) 
-
+![stop sign][image2]
 
 #### 2. Model's predictions on these new traffic signs
 
@@ -144,6 +141,4 @@ The model was able to correctly guess 5 of the 5 traffic signs, which gives an a
 
 The code for making predictions on my final model is located in the the Ipython notebook.
 
-![alt text](https://github.com/inokatsu/CarND-Traffic-Sign-Recognition/blob/master/figure/softmax_probability.png)
-
-
+![stop sign][image3]
